@@ -313,7 +313,7 @@ public class PracticeAutomPageStepdefinitions {
         practiceAutomPage.lastNameButonu.sendKeys(faker.name().lastName());
         practiceAutomPage.companyNameButonu.sendKeys(faker.name().firstName());
         practiceAutomPage.emailButonu.sendKeys(faker.internet().emailAddress());
-        practiceAutomPage.phoneButonu.sendKeys(faker.phoneNumber().phoneNumber());
+        practiceAutomPage.phoneButonu.sendKeys(faker.phoneNumber().subscriberNumber());
         actions.sendKeys(practiceAutomPage.ulkeButonu,"Denmark"+Keys.ENTER).perform();
         practiceAutomPage.addresButonu.sendKeys(faker.address().streetAddress());
         practiceAutomPage.zipCode.sendKeys(faker.address().zipCode());
