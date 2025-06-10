@@ -17,7 +17,7 @@ Feature dosyalarında yazılan doğal dildeki senaryolar, Java sınıfları ile 
 
 ## Uygulanan Test Senaryoları
 
-Toplam **18 adet** kullanıcı senaryosu otomasyona dönüştürülmüştür. Bazı önemli senaryolar:
+Toplam **18 adet** kullanıcı senaryosu otomasyona dönüştürülmüştür. Bazı önemli senaryolar şunlardır:
 
 - `US01_AnaSayfaSlidersElementleri` – Anasayfa slider öğelerinin doğrulanması  
 - `US02_AnaArrivalsElementleri` – Anasayfa "Arrivals" başlığının altındaki ürünlerin kontrolü  
