@@ -59,6 +59,7 @@ public class PracticeAutomPageStepdefinitions {
     @And("Ana sayfayı aşagiya kaydirir ve {int} adet Arrivals elementi olduğunu doğrular")
     public void anaSayfayıAşagiyaKaydirirVeAdetArrivalsElementiOlduğunuDoğrular(int istenilenSayi) {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
+        ReusableMethods.bekle(1);
         Assert.assertEquals(practiceAutomPage.arrivalsList.size(),istenilenSayi);
     }
 

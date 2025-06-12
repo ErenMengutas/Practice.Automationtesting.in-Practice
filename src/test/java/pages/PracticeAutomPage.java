@@ -37,7 +37,7 @@ public class PracticeAutomPage {
     public WebElement birinciArrivalsSekmesi;
 
 
-    @FindBy(xpath =" //a[@href=\"#tab-description\"]" )
+    @FindBy(xpath ="//a[@href=\"#tab-description\"]" )
     public WebElement arrivalsUrunincelemeleriSekmesi;
 
     @FindBy(xpath = "//a[@href=\"#tab-reviews\"]")
